@@ -1,1 +1,857 @@
-{}
+[
+  {
+    "id": "mid-001",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS selector has the highest specificity?",
+    "code": "",
+    "options": ["div p", ".class", "#id", "p"],
+    "answer": 2
+  },
+  {
+    "id": "mid-002",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property enables flexbox layout?",
+    "code": "",
+    "options": ["display: block", "display: flex", "position: flex", "flex: 1"],
+    "answer": 1
+  },
+  {
+    "id": "mid-003",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which property aligns flex items horizontally?",
+    "code": "",
+    "options": ["align-items", "justify-content", "flex-direction", "align-content"],
+    "answer": 1
+  },
+  {
+    "id": "mid-004",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which value of position allows element to be positioned relative to viewport?",
+    "code": "",
+    "options": ["absolute", "relative", "fixed", "sticky"],
+    "answer": 2
+  },
+  {
+    "id": "mid-005",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls wrapping of flex items?",
+    "code": "",
+    "options": ["flex-wrap", "white-space", "overflow", "wrap"],
+    "answer": 0
+  },
+  {
+    "id": "mid-006",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method selects the first matching element?",
+    "code": "",
+    "options": ["getElementsByClassName()", "querySelector()", "querySelectorAll()", "getElementById()"],
+    "answer": 1
+  },
+  {
+    "id": "mid-007",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which event occurs when an input field loses focus?",
+    "code": "",
+    "options": ["focus", "blur", "change", "input"],
+    "answer": 1
+  },
+  {
+    "id": "mid-008",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method adds a new element at the end of an array?",
+    "code": "",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-009",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JavaScript keyword creates a block-scoped variable?",
+    "code": "",
+    "options": ["var", "let", "const", "static"],
+    "answer": 1
+  },
+  {
+    "id": "mid-010",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method stops event bubbling?",
+    "code": "",
+    "options": ["stop()", "preventDefault()", "stopPropagation()", "cancelBubble()"],
+    "answer": 2
+  },
+  {
+    "id": "mid-011",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "let x = 10;\nif(true){ let x = 5; }\nconsole.log(x);",
+    "answerText": "10"
+  },
+  {
+    "id": "mid-012",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is the output?",
+    "code": "console.log([1,2,3].length);",
+    "answerText": "3"
+  },
+  {
+    "id": "mid-013",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(typeof NaN);",
+    "answerText": "number"
+  },
+  {
+    "id": "mid-014",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(0 && 'hello');",
+    "answerText": "0"
+  },
+  {
+    "id": "mid-015",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(true || false);",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-016",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS unit is relative to parent element?",
+    "code": "",
+    "options": ["px", "em", "rem", "vh"],
+    "answer": 1
+  },
+  {
+    "id": "mid-017",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which grid property defines columns?",
+    "code": "",
+    "options": ["grid-template-rows", "grid-template-columns", "grid-auto-flow", "grid-gap"],
+    "answer": 1
+  },
+  {
+    "id": "mid-018",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which array method creates a new array?",
+    "code": "",
+    "options": ["forEach()", "map()", "push()", "pop()"],
+    "answer": 1
+  },
+  {
+    "id": "mid-019",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which operator checks both value and type?",
+    "code": "",
+    "options": ["==", "===", "!=", "="],
+    "answer": 1
+  },
+  {
+    "id": "mid-020",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which event runs after DOM is fully loaded?",
+    "code": "",
+    "options": ["load", "DOMContentLoaded", "ready", "init"],
+    "answer": 1
+  },
+  {
+    "id": "mid-021",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([1,2,3].map(n => n * 2));",
+    "answerText": "2,4,6"
+  },
+  {
+    "id": "mid-022",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log('5' + 3 - 1);",
+    "answerText": "52"
+  },
+  {
+    "id": "mid-023",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(!![]);",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-024",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(null || 'JS');",
+    "answerText": "JS"
+  },
+  {
+    "id": "mid-025",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof (() => {}));",
+    "answerText": "function"
+  },
+  {
+    "id": "mid-026",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method removes the last array element?",
+    "code": "",
+    "options": ["pop()", "shift()", "splice()", "slice()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-027",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which property controls element order in flexbox?",
+    "code": "",
+    "options": ["order", "index", "z-index", "position"],
+    "answer": 0
+  },
+  {
+    "id": "mid-028",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS method converts JSON string to object?",
+    "code": "",
+    "options": ["JSON.parse()", "JSON.stringify()", "parse()", "toObject()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-029",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which event is triggered when checkbox state changes?",
+    "code": "",
+    "options": ["click", "input", "change", "toggle"],
+    "answer": 2
+  },
+  {
+    "id": "mid-030",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property creates space between grid items?",
+    "code": "",
+    "options": ["margin", "padding", "gap", "spacing"],
+    "answer": 2
+  },
+  {
+    "id": "mid-031",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "let a = [1,2]; let b = a; b.push(3); console.log(a.length);",
+    "answerText": "3"
+  },
+  {
+    "id": "mid-032",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log('' == false);",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-033",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log([].length === 0);",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-034",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(typeof undefined === 'undefined');",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-035",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(5 && 0);",
+    "answerText": "0"
+  },
+  {
+    "id": "mid-036",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method attaches an event listener?",
+    "code": "",
+    "options": ["addEvent()", "addEventListener()", "onEvent()", "listen()"],
+    "answer": 1
+  },
+  {
+    "id": "mid-037",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS value makes element stick after scroll?",
+    "code": "",
+    "options": ["fixed", "absolute", "relative", "sticky"],
+    "answer": 3
+  },
+  {
+    "id": "mid-038",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which array method removes first element?",
+    "code": "",
+    "options": ["shift()", "pop()", "slice()", "splice()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-039",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property aligns items vertically in flexbox?",
+    "code": "",
+    "options": ["justify-content", "align-items", "align-self", "place-items"],
+    "answer": 1
+  },
+  {
+    "id": "mid-040",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS object stores key-value pairs?",
+    "code": "",
+    "options": ["Array", "Object", "Set", "Map"],
+    "answer": 1
+  },
+  {
+    "id": "mid-041",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "const x = 5; console.log(x++);",
+    "answerText": "5"
+  },
+  {
+    "id": "mid-042",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(++x);",
+    "answerText": "ReferenceError"
+  },
+  {
+    "id": "mid-043",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log([1,2,3].includes(2));",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-044",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(Math.min(3,1,4));",
+    "answerText": "1"
+  },
+  {
+    "id": "mid-045",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof Symbol());",
+    "answerText": "symbol"
+  },
+  {
+    "id": "mid-046",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method prevents default browser behavior?",
+    "code": "",
+    "options": ["stop()", "preventDefault()", "stopPropagation()", "cancel()"],
+    "answer": 1
+  },
+  {
+    "id": "mid-047",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property defines grid rows?",
+    "code": "",
+    "options": ["grid-template-columns", "grid-template-rows", "grid-rows", "grid-flow"],
+    "answer": 1
+  },
+  {
+    "id": "mid-048",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS keyword prevents reassignment?",
+    "code": "",
+    "options": ["let", "var", "const", "static"],
+    "answer": 2
+  },
+  {
+    "id": "mid-049",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property hides overflow content?",
+    "code": "",
+    "options": ["display", "overflow", "visibility", "clip"],
+    "answer": 1
+  },
+  {
+    "id": "mid-050",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method combines two arrays?",
+    "code": "",
+    "options": ["join()", "merge()", "concat()", "append()"],
+    "answer": 2
+  },
+  {
+    "id": "mid-051",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([1,2,3].filter(n => n > 1));",
+    "answerText": "2,3"
+  },
+  {
+    "id": "mid-052",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log('JS'.toUpperCase());",
+    "answerText": "JS"
+  },
+  {
+    "id": "mid-053",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(10 / '2');",
+    "answerText": "5"
+  },
+  {
+    "id": "mid-054",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(typeof (10n));",
+    "answerText": "bigint"
+  },
+  {
+    "id": "mid-055",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log([1,2] === [1,2]);",
+    "answerText": "false"
+  },
+  {
+    "id": "mid-056",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS function repeats grid columns?",
+    "code": "",
+    "options": ["repeat()", "auto()", "grid()", "fr()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-057",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS method converts array to string?",
+    "code": "",
+    "options": ["join()", "stringify()", "toString()", "Both A and C"],
+    "answer": 3
+  },
+  {
+    "id": "mid-058",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which event triggers on text input?",
+    "code": "",
+    "options": ["change", "keydown", "input", "submit"],
+    "answer": 2
+  },
+  {
+    "id": "mid-059",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method copies array elements?",
+    "code": "",
+    "options": ["slice()", "splice()", "copy()", "clone()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-060",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property aligns grid items?",
+    "code": "",
+    "options": ["place-items", "align-grid", "grid-align", "item-align"],
+    "answer": 0
+  },
+  {
+    "id": "mid-061",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "let a = 1; a += '1'; console.log(a);",
+    "answerText": "11"
+  },
+  {
+    "id": "mid-062",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Math.round(4.4));",
+    "answerText": "4"
+  },
+  {
+    "id": "mid-063",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log('5' * 2);",
+    "answerText": "10"
+  },
+  {
+    "id": "mid-064",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(Boolean([]));",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-065",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(0 ?? 5);",
+    "answerText": "0"
+  },
+  {
+    "id": "mid-066",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which operator checks for null or undefined?",
+    "code": "",
+    "options": ["||", "&&", "??", "?: "],
+    "answer": 2
+  },
+  {
+    "id": "mid-067",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls animation duration?",
+    "code": "",
+    "options": ["animation-delay", "animation-time", "animation-duration", "transition-duration"],
+    "answer": 2
+  },
+  {
+    "id": "mid-068",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS method schedules delayed execution?",
+    "code": "",
+    "options": ["setTimeout()", "setInterval()", "delay()", "wait()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-069",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property animates smoothly?",
+    "code": "",
+    "options": ["animation", "transition", "transform", "ease"],
+    "answer": 1
+  },
+  {
+    "id": "mid-070",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which method merges objects?",
+    "code": "",
+    "options": ["Object.assign()", "merge()", "combine()", "spread()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-071",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log({a:1} === {a:1});",
+    "answerText": "false"
+  },
+  {
+    "id": "mid-072",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log('JS'.includes('S'));",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-073",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(5 ?? 10);",
+    "answerText": "5"
+  },
+  {
+    "id": "mid-074",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log([1,2,3].find(n => n > 1));",
+    "answerText": "2"
+  },
+  {
+    "id": "mid-075",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(Math.trunc(4.9));",
+    "answerText": "4"
+  },
+  {
+    "id": "mid-076",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property sets minimum width?",
+    "code": "",
+    "options": ["width", "min-width", "max-width", "flex-basis"],
+    "answer": 1
+  },
+  {
+    "id": "mid-077",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS loop iterates over array values?",
+    "code": "",
+    "options": ["for...in", "for...of", "while", "map"],
+    "answer": 1
+  },
+  {
+    "id": "mid-078",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property defines animation name?",
+    "code": "",
+    "options": ["animation", "animation-name", "keyframes", "transition"],
+    "answer": 1
+  },
+  {
+    "id": "mid-079",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which DOM property changes text content?",
+    "code": "",
+    "options": ["innerHTML", "innerText", "textContent", "All of the above"],
+    "answer": 3
+  },
+  {
+    "id": "mid-080",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS feature copies arrays safely?",
+    "code": "",
+    "options": ["slice()", "spread operator", "Array.from()", "All of the above"],
+    "answer": 3
+  },
+  {
+    "id": "mid-081",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log(typeof class A {});",
+    "answerText": "function"
+  },
+  {
+    "id": "mid-082",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(1 + (2 * 3));",
+    "answerText": "7"
+  },
+  {
+    "id": "mid-083",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(Number('10.5'));",
+    "answerText": "10.5"
+  },
+  {
+    "id": "mid-084",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log([1,2,3].every(n => n > 0));",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-085",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof Infinity);",
+    "answerText": "number"
+  },
+  {
+    "id": "mid-086",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls scroll behavior?",
+    "code": "",
+    "options": ["scroll", "overflow", "scroll-behavior", "behavior"],
+    "answer": 2
+  },
+  {
+    "id": "mid-087",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS method executes repeatedly?",
+    "code": "",
+    "options": ["setTimeout()", "setInterval()", "loop()", "repeat()"],
+    "answer": 1
+  },
+  {
+    "id": "mid-088",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property sets aspect ratio?",
+    "code": "",
+    "options": ["ratio", "aspect", "aspect-ratio", "size"],
+    "answer": 2
+  },
+  {
+    "id": "mid-089",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS object handles dates?",
+    "code": "",
+    "options": ["Time", "Calendar", "Date", "Moment"],
+    "answer": 2
+  },
+  {
+    "id": "mid-090",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls text overflow?",
+    "code": "",
+    "options": ["overflow", "white-space", "text-overflow", "wrap"],
+    "answer": 2
+  },
+  {
+    "id": "mid-091",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([1,2,3].some(n => n > 2));",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-092",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log('JS'.repeat(2));",
+    "answerText": "JSJS"
+  },
+  {
+    "id": "mid-093",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(Math.pow(2,3));",
+    "answerText": "8"
+  },
+  {
+    "id": "mid-094",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(typeof Promise.resolve());",
+    "answerText": "object"
+  },
+  {
+    "id": "mid-095",
+    "difficulty": "mid",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(!!{});",
+    "answerText": "true"
+  },
+  {
+    "id": "mid-096",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls transform animation?",
+    "code": "",
+    "options": ["animation", "transition", "transform", "keyframes"],
+    "answer": 2
+  },
+  {
+    "id": "mid-097",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS feature handles async operations?",
+    "code": "",
+    "options": ["Promise", "Callback", "async/await", "All of the above"],
+    "answer": 3
+  },
+  {
+    "id": "mid-098",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property defines column gap?",
+    "code": "",
+    "options": ["grid-gap", "column-gap", "gap", "Both B and C"],
+    "answer": 3
+  },
+  {
+    "id": "mid-099",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which JS method checks array condition?",
+    "code": "",
+    "options": ["every()", "filter()", "map()", "reduce()"],
+    "answer": 0
+  },
+  {
+    "id": "mid-100",
+    "difficulty": "mid",
+    "type": "mcq",
+    "question": "Which CSS property controls element resize?",
+    "code": "",
+    "options": ["scale", "resize", "transform", "overflow"],
+    "answer": 1
+  }
+]
