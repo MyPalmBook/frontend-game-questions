@@ -1,1 +1,881 @@
-{}
+[
+  {
+    "id": "low-001",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which HTML tag is used to define a paragraph?",
+    "code": "",
+    "options": ["<div>", "<p>", "<span>", "<section>"],
+    "answer": 1
+  },
+  {
+    "id": "low-002",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which HTML tag is used for the largest heading?",
+    "code": "",
+    "options": ["<h6>", "<h4>", "<h1>", "<header>"],
+    "answer": 2
+  },
+  {
+    "id": "low-003",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which attribute is used to provide a unique identifier to an HTML element?",
+    "code": "",
+    "options": ["class", "name", "id", "key"],
+    "answer": 2
+  },
+  {
+    "id": "low-004",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which HTML tag is used to insert an image?",
+    "code": "",
+    "options": ["<image>", "<img>", "<src>", "<picture>"],
+    "answer": 1
+  },
+  {
+    "id": "low-005",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which attribute specifies the URL of an image?",
+    "code": "",
+    "options": ["href", "link", "src", "path"],
+    "answer": 2
+  },
+
+  {
+    "id": "low-006",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which CSS property is used to change text color?",
+    "code": "",
+    "options": ["font-color", "text-color", "color", "background-color"],
+    "answer": 2
+  },
+  {
+    "id": "low-007",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which CSS property controls the size of text?",
+    "code": "",
+    "options": ["font-style", "text-size", "font-size", "size"],
+    "answer": 2
+  },
+  {
+    "id": "low-008",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which unit is relative to the root font size?",
+    "code": "",
+    "options": ["px", "em", "rem", "%"],
+    "answer": 2
+  },
+  {
+    "id": "low-009",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which display value makes elements appear in a row by default?",
+    "code": "",
+    "options": ["block", "inline", "flex", "none"],
+    "answer": 1
+  },
+  {
+    "id": "low-010",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which CSS property adds space inside an element?",
+    "code": "",
+    "options": ["margin", "border", "padding", "gap"],
+    "answer": 2
+  },
+
+  {
+    "id": "low-011",
+    "difficulty": "low",
+    "type": "predict",
+    "question": "What text will be displayed?",
+    "code": "<p>Hello <strong>World</strong></p>",
+    "answerText": "Hello World"
+  },
+  {
+    "id": "low-012",
+    "difficulty": "low",
+    "type": "predict",
+    "question": "What color will the text be?",
+    "code": "<p style=\"color:red\">Hi</p>",
+    "answerText": "red"
+  },
+  {
+    "id": "low-013",
+    "difficulty": "low",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log(2 + '2')",
+    "answerText": "22"
+  },
+  {
+    "id": "low-014",
+    "difficulty": "low",
+    "type": "predict",
+    "question": "What is the output?",
+    "code": "console.log(typeof 'Hello')",
+    "answerText": "string"
+  },
+  {
+    "id": "low-015",
+    "difficulty": "low",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(10 > 5)",
+    "answerText": "true"
+  },
+
+  {
+    "id": "low-016",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which JavaScript keyword declares a variable?",
+    "code": "",
+    "options": ["var", "int", "string", "define"],
+    "answer": 0
+  },
+  {
+    "id": "low-017",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which symbol is used for comments in JavaScript?",
+    "code": "",
+    "options": ["<!-- -->", "//", "#", "**"],
+    "answer": 1
+  },
+  {
+    "id": "low-018",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which function is used to print output in JavaScript?",
+    "code": "",
+    "options": ["print()", "log()", "console.log()", "echo()"],
+    "answer": 2
+  },
+  {
+    "id": "low-019",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which operator is used for equality comparison?",
+    "code": "",
+    "options": ["=", "==", "!=", "+="],
+    "answer": 1
+  },
+  {
+    "id": "low-020",
+    "difficulty": "low",
+    "type": "mcq",
+    "question": "Which HTML tag is used to create a button?",
+    "code": "",
+    "options": ["<btn>", "<button>", "<input>", "<click>"],
+    "answer": 1
+  },
+{
+  "id": "low-021",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is used to create an unordered list?",
+  "code": "",
+  "options": ["<ol>", "<ul>", "<li>", "<list>"],
+  "answer": 1
+},
+{
+  "id": "low-022",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag defines a list item?",
+  "code": "",
+  "options": ["<ul>", "<li>", "<ol>", "<item>"],
+  "answer": 1
+},
+{
+  "id": "low-023",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which attribute opens a link in a new tab?",
+  "code": "",
+  "options": ["target", "href", "rel", "open"],
+  "answer": 0
+},
+{
+  "id": "low-024",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which value of target opens link in new tab?",
+  "code": "",
+  "options": ["_self", "_new", "_blank", "_parent"],
+  "answer": 2
+},
+{
+  "id": "low-025",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is used to create a form?",
+  "code": "",
+  "options": ["<input>", "<form>", "<fieldset>", "<label>"],
+  "answer": 1
+},
+
+{
+  "id": "low-026",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which input type is used for passwords?",
+  "code": "",
+  "options": ["text", "password", "secure", "hidden"],
+  "answer": 1
+},
+{
+  "id": "low-027",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is used to embed JavaScript?",
+  "code": "",
+  "options": ["<js>", "<javascript>", "<script>", "<code>"],
+  "answer": 2
+},
+{
+  "id": "low-028",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which attribute links an external JavaScript file?",
+  "code": "",
+  "options": ["href", "src", "file", "link"],
+  "answer": 1
+},
+{
+  "id": "low-029",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property sets the background color?",
+  "code": "",
+  "options": ["color", "background", "background-color", "bgcolor"],
+  "answer": 2
+},
+{
+  "id": "low-030",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property controls text alignment?",
+  "code": "",
+  "options": ["align", "text-align", "font-align", "position"],
+  "answer": 1
+},
+
+{
+  "id": "low-031",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged to the console?",
+  "code": "console.log(5 + 5)",
+  "answerText": "10"
+},
+{
+  "id": "low-032",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(10 - '5')",
+  "answerText": "5"
+},
+{
+  "id": "low-033",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log(true + 1)",
+  "answerText": "2"
+},
+{
+  "id": "low-034",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the result?",
+  "code": "console.log(Boolean(0))",
+  "answerText": "false"
+},
+{
+  "id": "low-035",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log(typeof 123)",
+  "answerText": "number"
+},
+
+{
+  "id": "low-036",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which keyword stops a loop in JavaScript?",
+  "code": "",
+  "options": ["stop", "exit", "break", "end"],
+  "answer": 2
+},
+{
+  "id": "low-037",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which loop executes at least once?",
+  "code": "",
+  "options": ["for", "while", "do...while", "foreach"],
+  "answer": 2
+},
+{
+  "id": "low-038",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which operator checks both value and type?",
+  "code": "",
+  "options": ["==", "===", "!=", "="],
+  "answer": 1
+},
+{
+  "id": "low-039",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which method converts JSON string to object?",
+  "code": "",
+  "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"],
+  "answer": 0
+},
+{
+  "id": "low-040",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which method converts object to JSON string?",
+  "code": "",
+  "options": ["JSON.parse()", "JSON.stringify()", "stringify()", "toJSON()"],
+  "answer": 1
+},
+
+{
+  "id": "low-041",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is used for line break?",
+  "code": "",
+  "options": ["<break>", "<lb>", "<br>", "<hr>"],
+  "answer": 2
+},
+{
+  "id": "low-042",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag draws a horizontal line?",
+  "code": "",
+  "options": ["<line>", "<br>", "<hr>", "<divider>"],
+  "answer": 2
+},
+{
+  "id": "low-043",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which attribute is mandatory for input fields?",
+  "code": "",
+  "options": ["value", "type", "id", "name"],
+  "answer": 1
+},
+{
+  "id": "low-044",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property hides an element?",
+  "code": "",
+  "options": ["visibility: none", "display: none", "opacity: 0", "hidden"],
+  "answer": 1
+},
+{
+  "id": "low-045",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which property makes text bold?",
+  "code": "",
+  "options": ["font-weight", "font-style", "text-weight", "bold"],
+  "answer": 0
+},
+
+{
+  "id": "low-046",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(!!'hello')",
+  "answerText": "true"
+},
+{
+  "id": "low-047",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log([] == false)",
+  "answerText": "true"
+},
+{
+  "id": "low-048",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(null == undefined)",
+  "answerText": "true"
+},
+{
+  "id": "low-049",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be output?",
+  "code": "console.log(1 + true)",
+  "answerText": "2"
+},
+{
+  "id": "low-050",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the result?",
+  "code": "console.log(false + false)",
+  "answerText": "0"
+},
+
+{
+  "id": "low-051",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS position removes element from normal flow?",
+  "code": "",
+  "options": ["static", "relative", "absolute", "inherit"],
+  "answer": 2
+},
+{
+  "id": "low-052",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which property rounds element corners?",
+  "code": "",
+  "options": ["border-round", "radius", "border-radius", "corner-radius"],
+  "answer": 2
+},
+{
+  "id": "low-053",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property controls element transparency?",
+  "code": "",
+  "options": ["opacity", "visibility", "alpha", "display"],
+  "answer": 0
+},
+{
+  "id": "low-054",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is semantic?",
+  "code": "",
+  "options": ["<div>", "<span>", "<section>", "<b>"],
+  "answer": 2
+},
+{
+  "id": "low-055",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which tag defines navigation links?",
+  "code": "",
+  "options": ["<nav>", "<menu>", "<header>", "<aside>"],
+  "answer": 0
+},
+
+{
+  "id": "low-056",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log(typeof NaN)",
+  "answerText": "number"
+},
+{
+  "id": "low-057",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log([] + [])",
+  "answerText": ""
+},
+{
+  "id": "low-058",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log([1,2] + [3,4])",
+  "answerText": "1,23,4"
+},
+{
+  "id": "low-059",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(0 === false)",
+  "answerText": "false"
+},
+{
+  "id": "low-060",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(typeof undefined)",
+  "answerText": "undefined"
+},
+
+{
+  "id": "low-061",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which event fires when a button is clicked?",
+  "code": "",
+  "options": ["onhover", "onclick", "onpress", "onsubmit"],
+  "answer": 1
+},
+{
+  "id": "low-062",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which method selects element by ID?",
+  "code": "",
+  "options": ["getElement()", "getElementById()", "query()", "select()"],
+  "answer": 1
+},
+{
+  "id": "low-063",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which method selects all matching elements?",
+  "code": "",
+  "options": ["querySelector()", "querySelectorAll()", "getElements()", "selectAll()"],
+  "answer": 1
+},
+{
+  "id": "low-064",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which keyword defines a function?",
+  "code": "",
+  "options": ["function", "def", "fn", "method"],
+  "answer": 0
+},
+{
+  "id": "low-065",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which operator concatenates strings?",
+  "code": "",
+  "options": ["*", "+", "&", "%"],
+  "answer": 1
+},
+
+{
+  "id": "low-066",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log('5' - 2)",
+  "answerText": "3"
+},
+{
+  "id": "low-067",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(5 + null)",
+  "answerText": "5"
+},
+{
+  "id": "low-068",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(Boolean(''))",
+  "answerText": "false"
+},
+{
+  "id": "low-069",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log(typeof [])",
+  "answerText": "object"
+},
+{
+  "id": "low-070",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is output?",
+  "code": "console.log(1 == '1')",
+  "answerText": "true"
+},
+
+{
+  "id": "low-071",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property sets element width?",
+  "code": "",
+  "options": ["size", "length", "width", "measure"],
+  "answer": 2
+},
+{
+  "id": "low-072",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag contains metadata?",
+  "code": "",
+  "options": ["<meta>", "<head>", "<title>", "<link>"],
+  "answer": 1
+},
+{
+  "id": "low-073",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which tag sets page title?",
+  "code": "",
+  "options": ["<meta>", "<head>", "<title>", "<h1>"],
+  "answer": 2
+},
+{
+  "id": "low-074",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property changes cursor style?",
+  "code": "",
+  "options": ["mouse", "pointer", "cursor", "hover"],
+  "answer": 2
+},
+{
+  "id": "low-075",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML attribute disables input?",
+  "code": "",
+  "options": ["readonly", "disabled", "lock", "inactive"],
+  "answer": 1
+},
+
+{
+  "id": "low-076",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log(Math.floor(4.7))",
+  "answerText": "4"
+},
+{
+  "id": "low-077",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(Math.max(1,5,3))",
+  "answerText": "5"
+},
+{
+  "id": "low-078",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log(parseInt('10px'))",
+  "answerText": "10"
+},
+{
+  "id": "low-079",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(isNaN('abc'))",
+  "answerText": "true"
+},
+{
+  "id": "low-080",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be output?",
+  "code": "console.log(typeof function(){})",
+  "answerText": "function"
+},
+
+{
+  "id": "low-081",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property adds shadow?",
+  "code": "",
+  "options": ["box-shadow", "text-shadow", "shadow", "drop-shadow"],
+  "answer": 0
+},
+{
+  "id": "low-082",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag is used for audio?",
+  "code": "",
+  "options": ["<media>", "<sound>", "<audio>", "<mp3>"],
+  "answer": 2
+},
+{
+  "id": "low-083",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which tag embeds video?",
+  "code": "",
+  "options": ["<media>", "<movie>", "<video>", "<embed>"],
+  "answer": 2
+},
+{
+  "id": "low-084",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property sets font?",
+  "code": "",
+  "options": ["font-style", "font-family", "font-type", "font-set"],
+  "answer": 1
+},
+{
+  "id": "low-085",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML attribute provides alternate text for image?",
+  "code": "",
+  "options": ["title", "alt", "src", "name"],
+  "answer": 1
+},
+
+{
+  "id": "low-086",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log('a' + 1)",
+  "answerText": "a1"
+},
+{
+  "id": "low-087",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is the output?",
+  "code": "console.log(10 % 3)",
+  "answerText": "1"
+},
+{
+  "id": "low-088",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log(Boolean('false'))",
+  "answerText": "true"
+},
+{
+  "id": "low-089",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(typeof null)",
+  "answerText": "object"
+},
+{
+  "id": "low-090",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be output?",
+  "code": "console.log(2 ** 3)",
+  "answerText": "8"
+},
+
+{
+  "id": "low-091",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property controls stacking order?",
+  "code": "",
+  "options": ["order", "index", "z-index", "layer"],
+  "answer": 2
+},
+{
+  "id": "low-092",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which HTML tag defines footer?",
+  "code": "",
+  "options": ["<bottom>", "<footer>", "<end>", "<section>"],
+  "answer": 1
+},
+{
+  "id": "low-093",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which tag defines main content?",
+  "code": "",
+  "options": ["<body>", "<main>", "<content>", "<section>"],
+  "answer": 1
+},
+{
+  "id": "low-094",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which CSS property changes element position?",
+  "code": "",
+  "options": ["move", "float", "position", "layout"],
+  "answer": 2
+},
+{
+  "id": "low-095",
+  "difficulty": "low",
+  "type": "mcq",
+  "question": "Which JavaScript type represents no value?",
+  "code": "",
+  "options": ["undefined", "null", "NaN", "false"],
+  "answer": 1
+},
+
+{
+  "id": "low-096",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be logged?",
+  "code": "console.log(typeof true)",
+  "answerText": "boolean"
+},
+{
+  "id": "low-097",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is output?",
+  "code": "console.log(3 < 2)",
+  "answerText": "false"
+},
+{
+  "id": "low-098",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be printed?",
+  "code": "console.log(1 + 2 + '3')",
+  "answerText": "33"
+},
+{
+  "id": "low-099",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What is logged?",
+  "code": "console.log(typeof [])",
+  "answerText": "object"
+},
+{
+  "id": "low-100",
+  "difficulty": "low",
+  "type": "predict",
+  "question": "What will be output?",
+  "code": "console.log(!!0)",
+  "answerText": "false"
+}
+  
+]
