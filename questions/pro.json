@@ -1,1 +1,867 @@
-{}
+[
+  {
+    "id": "pro-001",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which statement about JavaScript hoisting is correct?",
+    "code": "",
+    "options": [
+      "Only variables are hoisted",
+      "Only functions are hoisted",
+      "Variables and function declarations are hoisted",
+      "Arrow functions are hoisted"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "pro-002",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which value of this refers to the global object in non-strict mode?",
+    "code": "",
+    "options": ["null", "undefined", "window", "function"],
+    "answer": 2
+  },
+  {
+    "id": "pro-003",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API schedules a microtask?",
+    "code": "",
+    "options": ["setTimeout", "setInterval", "Promise.then", "requestAnimationFrame"],
+    "answer": 2
+  },
+  {
+    "id": "pro-004",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which keyword preserves lexical this?",
+    "code": "",
+    "options": ["function", "bind", "call", "arrow function"],
+    "answer": 3
+  },
+  {
+    "id": "pro-005",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which statement about closures is true?",
+    "code": "",
+    "options": [
+      "Closures only work with var",
+      "Closures capture variables, not values",
+      "Closures copy variables",
+      "Closures work only once"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "pro-006",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log(a);\nvar a = 10;",
+    "answerText": "undefined"
+  },
+  {
+    "id": "pro-007",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is the output?",
+    "code": "let a = 10;\n{ let a = 20; }\nconsole.log(a);",
+    "answerText": "10"
+  },
+  {
+    "id": "pro-008",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(typeof NaN === 'number');",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-009",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log([] + {});",
+    "answerText": "[object Object]"
+  },
+  {
+    "id": "pro-010",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log({} + []);",
+    "answerText": "0"
+  },
+  {
+    "id": "pro-011",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which method permanently changes array length?",
+    "code": "",
+    "options": ["map()", "slice()", "splice()", "filter()"],
+    "answer": 2
+  },
+  {
+    "id": "pro-012",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which object is used for structured cloning?",
+    "code": "",
+    "options": ["JSON", "Object", "structuredClone", "cloneDeep"],
+    "answer": 2
+  },
+  {
+    "id": "pro-013",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which lifecycle phase executes microtasks?",
+    "code": "",
+    "options": ["Call stack", "Event loop", "Microtask queue", "Macrotask queue"],
+    "answer": 2
+  },
+  {
+    "id": "pro-014",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which operator has highest precedence?",
+    "code": "",
+    "options": ["+", "*", "()", "="],
+    "answer": 2
+  },
+  {
+    "id": "pro-015",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature enables lazy execution?",
+    "code": "",
+    "options": ["Promise", "Generator", "Async function", "Callback"],
+    "answer": 1
+  },
+  {
+    "id": "pro-016",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "for(let i=0;i<3;i++){setTimeout(()=>console.log(i),0)}",
+    "answerText": "0 1 2"
+  },
+  {
+    "id": "pro-017",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "for(var i=0;i<3;i++){setTimeout(()=>console.log(i),0)}",
+    "answerText": "3 3 3"
+  },
+  {
+    "id": "pro-018",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(1 + +'2' + 3);",
+    "answerText": "6"
+  },
+  {
+    "id": "pro-019",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(typeof typeof 1);",
+    "answerText": "string"
+  },
+  {
+    "id": "pro-020",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(null ?? undefined);",
+    "answerText": "undefined"
+  },
+  {
+    "id": "pro-021",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which statement about async/await is correct?",
+    "code": "",
+    "options": [
+      "await blocks the thread",
+      "await pauses execution inside async function",
+      "await blocks event loop",
+      "await works outside async"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "pro-022",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API is non-blocking?",
+    "code": "",
+    "options": ["alert()", "prompt()", "fetch()", "confirm()"],
+    "answer": 2
+  },
+  {
+    "id": "pro-023",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which technique reduces reflow?",
+    "code": "",
+    "options": ["DOM queries", "Batch DOM updates", "Inline styles", "Forced layout"],
+    "answer": 1
+  },
+  {
+    "id": "pro-024",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which object freezes properties?",
+    "code": "",
+    "options": ["Object.seal()", "Object.freeze()", "Object.lock()", "Object.prevent()"],
+    "answer": 1
+  },
+  {
+    "id": "pro-025",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature avoids callback hell?",
+    "code": "",
+    "options": ["setTimeout", "Promises", "for loop", "switch"],
+    "answer": 1
+  },
+  {
+    "id": "pro-026",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "const obj={a:1}; Object.freeze(obj); obj.a=2; console.log(obj.a);",
+    "answerText": "1"
+  },
+  {
+    "id": "pro-027",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Promise.resolve(5));",
+    "answerText": "[object Promise]"
+  },
+  {
+    "id": "pro-028",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log([...'JS']);",
+    "answerText": "J,S"
+  },
+  {
+    "id": "pro-029",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(0.1 + 0.2 === 0.3);",
+    "answerText": "false"
+  },
+  {
+    "id": "pro-030",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(Math.max());",
+    "answerText": "-Infinity"
+  },
+  {
+    "id": "pro-031",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which structure ensures constant lookup time?",
+    "code": "",
+    "options": ["Array", "Object", "Map", "Set"],
+    "answer": 2
+  },
+  {
+    "id": "pro-032",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which browser API improves animation performance?",
+    "code": "",
+    "options": ["setTimeout", "setInterval", "requestAnimationFrame", "Promise"],
+    "answer": 2
+  },
+  {
+    "id": "pro-033",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature enables memoization?",
+    "code": "",
+    "options": ["Closure", "Promise", "Generator", "Async"],
+    "answer": 0
+  },
+  {
+    "id": "pro-034",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which keyword prevents prototype mutation?",
+    "code": "",
+    "options": ["const", "freeze", "seal", "immutable"],
+    "answer": 1
+  },
+  {
+    "id": "pro-035",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature allows private fields?",
+    "code": "",
+    "options": ["_underscore", "#private", "closure", "symbol"],
+    "answer": 1
+  },
+  {
+    "id": "pro-036",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "class A{#x=1; getX(){return this.#x}} console.log(new A().getX());",
+    "answerText": "1"
+  },
+  {
+    "id": "pro-037",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(typeof BigInt(10));",
+    "answerText": "bigint"
+  },
+  {
+    "id": "pro-038",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log([1,2,3].reduce((a,b)=>a+b));",
+    "answerText": "6"
+  },
+  {
+    "id": "pro-039",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(Object.is(NaN, NaN));",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-040",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log([] === []);",
+    "answerText": "false"
+  },
+  {
+    "id": "pro-041",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which technique avoids memory leaks?",
+    "code": "",
+    "options": ["Global variables", "Event cleanup", "Closures", "Intervals"],
+    "answer": 1
+  },
+  {
+    "id": "pro-042",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API provides background execution?",
+    "code": "",
+    "options": ["Service Worker", "Web Worker", "Worker Thread", "Async function"],
+    "answer": 1
+  },
+  {
+    "id": "pro-043",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which structure prevents duplicates?",
+    "code": "",
+    "options": ["Array", "Object", "Map", "Set"],
+    "answer": 3
+  },
+  {
+    "id": "pro-044",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS method deep clones objects?",
+    "code": "",
+    "options": ["JSON.parse", "structuredClone", "Object.assign", "spread"],
+    "answer": 1
+  },
+  {
+    "id": "pro-045",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature allows lazy iteration?",
+    "code": "",
+    "options": ["Promise", "Array", "Generator", "Map"],
+    "answer": 2
+  },
+  {
+    "id": "pro-046",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "async function f(){return 5} console.log(f());",
+    "answerText": "[object Promise]"
+  },
+  {
+    "id": "pro-047",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Promise.resolve(1).then(console.log));",
+    "answerText": "[object Promise]"
+  },
+  {
+    "id": "pro-048",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(typeof null === 'object');",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-049",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(1 < 2 < 3);",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-050",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(3 > 2 > 1);",
+    "answerText": "false"
+  },
+  {
+    "id": "pro-051",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API persists data asynchronously?",
+    "code": "",
+    "options": ["localStorage", "sessionStorage", "IndexedDB", "Cookie"],
+    "answer": 2
+  },
+  {
+    "id": "pro-052",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature improves startup performance?",
+    "code": "",
+    "options": ["Code splitting", "Minification", "Compression", "All"],
+    "answer": 3
+  },
+  {
+    "id": "pro-053",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which syntax binds this permanently?",
+    "code": "",
+    "options": ["call()", "apply()", "bind()", "arrow"],
+    "answer": 2
+  },
+  {
+    "id": "pro-054",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS method flattens arrays?",
+    "code": "",
+    "options": ["flat()", "reduce()", "concat()", "spread"],
+    "answer": 0
+  },
+  {
+    "id": "pro-055",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API throttles execution?",
+    "code": "",
+    "options": ["debounce", "throttle", "delay", "interval"],
+    "answer": 1
+  },
+  {
+    "id": "pro-056",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([1,2,3].flatMap(n => [n,n]));",
+    "answerText": "1,1,2,2,3,3"
+  },
+  {
+    "id": "pro-057",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Object.keys({a:1,b:2}).length);",
+    "answerText": "2"
+  },
+  {
+    "id": "pro-058",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log('5' == 5 && '5' === 5);",
+    "answerText": "false"
+  },
+  {
+    "id": "pro-059",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(Number.isNaN(NaN));",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-060",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof (class {}));",
+    "answerText": "function"
+  },
+  {
+    "id": "pro-061",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature enables tree-shaking?",
+    "code": "",
+    "options": ["CommonJS", "ES Modules", "AMD", "UMD"],
+    "answer": 1
+  },
+  {
+    "id": "pro-062",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API observes DOM changes?",
+    "code": "",
+    "options": ["IntersectionObserver", "ResizeObserver", "MutationObserver", "PerformanceObserver"],
+    "answer": 2
+  },
+  {
+    "id": "pro-063",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature avoids race conditions?",
+    "code": "",
+    "options": ["Promise.all", "Promise.race", "Mutex", "Async/await"],
+    "answer": 2
+  },
+  {
+    "id": "pro-064",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which method schedules idle tasks?",
+    "code": "",
+    "options": ["setTimeout", "requestIdleCallback", "requestAnimationFrame", "Promise"],
+    "answer": 1
+  },
+  {
+    "id": "pro-065",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature improves memory reuse?",
+    "code": "",
+    "options": ["Garbage collection", "Object pooling", "Closure", "Recursion"],
+    "answer": 1
+  },
+  {
+    "id": "pro-066",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([1,2,3].map(parseInt));",
+    "answerText": "1,NaN,NaN"
+  },
+  {
+    "id": "pro-067",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Math.min(1, null));",
+    "answerText": "0"
+  },
+  {
+    "id": "pro-068",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(String(Symbol('a')));",
+    "answerText": "Symbol(a)"
+  },
+  {
+    "id": "pro-069",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(!!new Boolean(false));",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-070",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof (await Promise.resolve(1)));",
+    "answerText": "number"
+  },
+  {
+    "id": "pro-071",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API helps measure performance?",
+    "code": "",
+    "options": ["console.time", "Performance API", "Date.now", "All"],
+    "answer": 3
+  },
+  {
+    "id": "pro-072",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which pattern decouples components?",
+    "code": "",
+    "options": ["Singleton", "Observer", "Factory", "Prototype"],
+    "answer": 1
+  },
+  {
+    "id": "pro-073",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature enforces immutability?",
+    "code": "",
+    "options": ["const", "freeze", "seal", "readonly"],
+    "answer": 1
+  },
+  {
+    "id": "pro-074",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API supports offline caching?",
+    "code": "",
+    "options": ["localStorage", "Cache API", "IndexedDB", "Service Worker"],
+    "answer": 3
+  },
+  {
+    "id": "pro-075",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which concept prevents tight coupling?",
+    "code": "",
+    "options": ["Inheritance", "Composition", "Global state", "Singleton"],
+    "answer": 1
+  },
+  {
+    "id": "pro-076",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log([...'hello'].length);",
+    "answerText": "5"
+  },
+  {
+    "id": "pro-077",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Reflect.ownKeys({a:1,[Symbol()]:2}).length);",
+    "answerText": "2"
+  },
+  {
+    "id": "pro-078",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(Object.getPrototypeOf([]) === Array.prototype);",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-079",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(1 / 0);",
+    "answerText": "Infinity"
+  },
+  {
+    "id": "pro-080",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof arguments);",
+    "answerText": "object"
+  },
+  {
+    "id": "pro-081",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API synchronizes threads?",
+    "code": "",
+    "options": ["Atomics", "Mutex", "Lock", "Semaphore"],
+    "answer": 0
+  },
+  {
+    "id": "pro-082",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature enables hot module replacement?",
+    "code": "",
+    "options": ["Bundler", "Runtime", "Dev server", "Compiler"],
+    "answer": 2
+  },
+  {
+    "id": "pro-083",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API measures frame timing?",
+    "code": "",
+    "options": ["Performance.now", "requestAnimationFrame", "FPS API", "Timeline"],
+    "answer": 1
+  },
+  {
+    "id": "pro-084",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which JS feature allows reflection?",
+    "code": "",
+    "options": ["Proxy", "Reflect", "Meta", "Mirror"],
+    "answer": 1
+  },
+  {
+    "id": "pro-085",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which concept enables dependency injection?",
+    "code": "",
+    "options": ["Closure", "Factory", "IoC", "Singleton"],
+    "answer": 2
+  },
+  {
+    "id": "pro-086",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log(typeof (function*(){}));",
+    "answerText": "function"
+  },
+  {
+    "id": "pro-087",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Promise.all([Promise.resolve(1),Promise.resolve(2)]));",
+    "answerText": "[object Promise]"
+  },
+  {
+    "id": "pro-088",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(0 ?? false);",
+    "answerText": "0"
+  },
+  {
+    "id": "pro-089",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log('b' + 'a' + +'a' + 'a');",
+    "answerText": "baNaNa"
+  },
+  {
+    "id": "pro-090",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(typeof new Function());",
+    "answerText": "function"
+  },
+  {
+    "id": "pro-091",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API improves long-task handling?",
+    "code": "",
+    "options": ["Web Worker", "setTimeout", "Promise", "Idle callback"],
+    "answer": 0
+  },
+  {
+    "id": "pro-092",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which pattern creates controlled instances?",
+    "code": "",
+    "options": ["Factory", "Observer", "Decorator", "Strategy"],
+    "answer": 0
+  },
+  {
+    "id": "pro-093",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API enables thread-safe operations?",
+    "code": "",
+    "options": ["SharedArrayBuffer", "Atomics", "Worker", "Mutex"],
+    "answer": 1
+  },
+  {
+    "id": "pro-094",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which feature enables code sandboxing?",
+    "code": "",
+    "options": ["iframe", "eval", "worker", "proxy"],
+    "answer": 0
+  },
+  {
+    "id": "pro-095",
+    "difficulty": "pro",
+    "type": "mcq",
+    "question": "Which API schedules high-priority rendering?",
+    "code": "",
+    "options": ["requestAnimationFrame", "setTimeout", "Promise", "Idle callback"],
+    "answer": 0
+  },
+  {
+    "id": "pro-096",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be logged?",
+    "code": "console.log(Function.length);",
+    "answerText": "1"
+  },
+  {
+    "id": "pro-097",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is output?",
+    "code": "console.log(Math.sign(-0));",
+    "answerText": "-0"
+  },
+  {
+    "id": "pro-098",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be printed?",
+    "code": "console.log(typeof document !== 'undefined');",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-099",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What is logged?",
+    "code": "console.log(globalThis === window);",
+    "answerText": "true"
+  },
+  {
+    "id": "pro-100",
+    "difficulty": "pro",
+    "type": "predict",
+    "question": "What will be output?",
+    "code": "console.log(Object.prototype.toString.call([]));",
+    "answerText": "[object Array]"
+  }
+]
