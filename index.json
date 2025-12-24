@@ -1,1 +1,6 @@
-
+{
+  "low": "questions/low.json",
+  "mid": "questions/mid.json",
+  "pro": "questions/pro.json",
+  "version": "1.0.0"
+}
